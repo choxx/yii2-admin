@@ -79,7 +79,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
+        'class' => 'mdm\admin\classes\AccessControl',   //changes made here
         'allowActions' => [
             'site/*',
             'admin/*',
